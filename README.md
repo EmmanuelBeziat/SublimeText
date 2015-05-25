@@ -28,9 +28,7 @@ My SublimeText 3 setup
 
 ```json
 [
-	// Remplace le copier-coller standard en gardant l'indentation
 	{ "keys": ["ctrl+v"], "command": "paste_and_indent" },
-	// Copier-coller standard
 	{ "keys": ["ctrl+shift+v"], "command": "paste" }
 ]
 ```
@@ -39,9 +37,7 @@ My SublimeText 3 setup
 
 ```json
 [
-	// Remplace le copier-coller standard en gardant l'indentation
 	{ "keys": ["super+v"], "command": "paste_and_indent" },
-	// Copier-coller standard
 	{ "keys": ["super+shift+v"], "command": "paste" }
 ]
 ```

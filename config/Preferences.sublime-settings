@@ -1,0 +1,17 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_exclude_patterns":
+	[
+		"*.log"
+	],
+	"tab_size": 4,
+	"theme": "itg.flat.dark.sublime-theme",
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true
+}

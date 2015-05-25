@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<!--[if lt IE 9]><script src="${1:https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/}html5shiv.min.js"></script><![endif]-->
+]]></content>
+	<tabTrigger>shiv</tabTrigger>
+	<scope>source.html, source.php</scope>
+	<description>Ajoute le html5shiv pour IE9 et moins</description>
+</snippet>

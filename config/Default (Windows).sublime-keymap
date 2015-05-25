@@ -1,0 +1,6 @@
+[
+	// Remplace le copier-coller standard en gardant l'indentation
+	{ "keys": ["ctrl+v"], "command": "paste_and_indent" },
+	// Copier-coller standard
+	{ "keys": ["ctrl+shift+v"], "command": "paste" }
+]

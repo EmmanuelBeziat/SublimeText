@@ -1,0 +1,68 @@
+[
+	{"id": "side-bar-files-open-with",
+		"children":
+		[
+
+			// Photoshop
+			{
+				"caption": "Photoshop",
+				"id": "side-bar-files-open-with-photoshop",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files\\Adobe\\Adobe Photoshop CC 2014\\Photoshop.exe",
+									"extensions":"psd|png|jpg|jpeg",  //any file with these extensions
+									"args":[]
+								},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			//separator
+			{"caption":"-"},
+
+			// Browsers
+			{
+				"caption": "Chrome",
+				"id": "side-bar-files-open-with-chrome",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
+									"extensions":".html", //any file with extension
+									"args":[]
+						},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+			{
+				"caption": "Firefox",
+				"id": "side-bar-files-open-with-firefox",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe",
+									"extensions":".html", //any file with extension
+									"args":[]
+						},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+			{
+				"caption": "Internet Explorer",
+				"id": "side-bar-files-open-with-internet-explorer",
+
+				"command": "side_bar_files_open_with",
+				"args": {
+									"paths": [],
+									"application": "C:\\Program Files\\Internet Explorer\\iexplore.exe",
+									"extensions":".html", //any file with extension
+									"args":[]
+						},
+				"open_automatically" : false // will close the view/tab and launch the application
+			},
+
+			{"caption":"-"}
+		]
+	}
+]

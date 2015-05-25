@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<!doctype html>
+<html lang="fr" dir="ltr">
+	<head>
+		<meta charset="utf-8"/>
+		<title>${1:Nom du site}</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="${2:assets/css/main.css}">
+	</head>
+	<body>
+		<div class="site">
+
+		</div>
+	</body>
+</html>
+]]></content>
+	<tabTrigger>html-base</tabTrigger>
+	<scope>source.html, source.php</scope>
+	<description>Base pour fichier html</description>
+</snippet>

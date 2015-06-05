@@ -2,12 +2,12 @@
 	<content><![CDATA[
 /*!
  * ${2:Description}
- * Version : ${3:1.0}
+ * Version : ${3:1.0.0}
  * Emmanuel B. (www.emmanuelbeziat.com)
  * https://github.com/EmmanuelBeziat/jQuery-${1:pluginName}
  **/
 
- ;(function($, window, document, undefined) {
+ ;(function(\$, window, document, undefined) {
 	'use strict';
 
 	/**
@@ -23,7 +23,7 @@
 	var Plugin = function(element, options) {
 		this.element = element;
 
-		this.settings = $.extend({}, defaults, options);
+		this.settings = \$.extend({}, defaults, options);
 
 		this._defaults = defaults;
 		this._name = pluginName;
@@ -34,7 +34,7 @@
 	/**
 	 * Methods
 	 */
-	$.extend(Plugin.prototype, {
+	\$.extend(Plugin.prototype, {
 
 		init: function() {
 			var plugin = this;
@@ -45,11 +45,11 @@
 	/**
 	 * jQuery plugin wrapper
 	 */
-	$.fn[pluginName] = function(options) {
+	\$.fn[pluginName] = function(options) {
 
 		return this.each(function() {
-			if (!$.data(this, 'plugin_' + pluginName)) {
-				$.data(this, 'plugin_' + pluginName, new Plugin(this, options));
+			if (!\$.data(this, 'plugin_' + pluginName)) {
+				\$.data(this, 'plugin_' + pluginName, new Plugin(this, options));
 			}
 		});
 	};

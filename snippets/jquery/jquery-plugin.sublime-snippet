@@ -56,6 +56,5 @@
 })(jQuery, window, document);
 ]]></content>
 	<tabTrigger>jquery-plugin</tabTrigger>
-	<scope>source.js</scope>
 	<description>Génère une base pour un plugin jQuery</description>
 </snippet>

@@ -18,6 +18,5 @@
 </html>
 ]]></content>
 	<tabTrigger>html-base</tabTrigger>
-	<scope>source.html, source.php</scope>
 	<description>Base pour fichier html</description>
 </snippet>

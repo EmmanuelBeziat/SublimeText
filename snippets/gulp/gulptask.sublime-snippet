@@ -5,6 +5,5 @@ gulp.task('${1:task}',${2: ['task'],}  function() {
 });
 ]]></content>
 	<tabTrigger>gulptask</tabTrigger>
-	<scope>source.js</scope>
 	<description>Create a Gulp Task</description>
 </snippet>

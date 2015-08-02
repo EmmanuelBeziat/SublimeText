@@ -3,6 +3,5 @@
 <script src="${2:http://code.jquery.com}/jquery-${1:latest}.min.js"></script>
 ]]></content>
 	<tabTrigger>jquery-latest</tabTrigger>
-	<scope>source.html, source.php</scope>
 	<description>Ajoute jQuery via la balise script</description>
 </snippet>

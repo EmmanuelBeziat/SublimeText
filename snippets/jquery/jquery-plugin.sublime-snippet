@@ -56,24 +56,8 @@
 		 * Attach actions to events
 		 */
 		bindEvents: function() {
-			var plugin = this,
-				\$input = \$(plugin.\$element).find(plugin.options.inputSelector);
-
-			\$input
-				.on({
-					'focus': function(event) {
-						plugin.focusInput(\$(event.target));
-					},
-
-					'blur': function(event) {
-						plugin.blurInput(\$(event.target));
-					}
-				})
-				.each(function() {
-					if (\$(this).val() !== '') {
-						\$(this).parent().addClass(plugin.options.classLabel);
-					}
-				});
+			var plugin = this;
+			// Do something here
 		},
 
 		/**
@@ -84,23 +68,9 @@
 		},
 
 		/**
-		 * When an item get the focus
+		 * Custom Method
 		 */
-		focusInput: function(\$target) {
-			\$target.parent().addClass(this.options.classFocus + ' ' + this.options.classLabel);
-		},
-
-		/**
-		 * When an item lose the focus
-		 */
-		blurInput: function(\$target) {
-			var \$parent = \$target.parent();
-
-			if (\$target.val() === '') {
-				\$parent.removeClass(this.options.classLabel);
-			}
-
-			\$parent.removeClass(this.options.classFocus);
+		customMethod: function() {
 		}
 
 	});
@@ -121,9 +91,6 @@
 	 * Plugin options and their default values
 	 */
 	\$.fn[pluginName].defaults = {
-		inputSelector: '.form-input',
-		classFocus: 'form-group--focus',
-		classLabel: 'form-group--label'
 	};
 
 })(jQuery, window, document);

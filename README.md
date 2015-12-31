@@ -79,6 +79,10 @@ Ouvre le *ColorPicker* par défaut de l'OS pour choisir une couleur à la volée
 
 Facilite l'écriture des commentaires.
 
+## [EditorConfig](https://github.com/sindresorhus/editorconfig-sublime)
+
+Permet d'avoir des fichiers édités de façon propre entre différents éditeurs et différents OS.
+
 ## [Emmet](https://github.com/sergeche/emmet-sublime)
 
 Facilite l'écriture du html avec une syntaxe CSS avancée.

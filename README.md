@@ -7,7 +7,7 @@ My SublimeText 3 setup
 ```json
 {
 	"bold_folder_labels": true,
-	"color_scheme": "Packages/Theme - itg.flat/itg.dark.tmTheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"font_size": 10,
 	"ignored_packages":
 	[
@@ -18,7 +18,7 @@ My SublimeText 3 setup
 		"*.log"
 	],
 	"tab_size": 4,
-	"theme": "itg.flat.dark.sublime-theme",
+	"theme": "Material-Theme.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": true
 }
@@ -177,6 +177,8 @@ npm install -g less
 
 
 # Templates
+
+## [Material-Theme](https://github.com/equinusocio/material-theme)
 
 ## [itg.flat](https://github.com/itsthatguy/theme-itg-flat)
 

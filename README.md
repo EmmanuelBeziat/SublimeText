@@ -175,6 +175,16 @@ LESS doit être installé avec NodeJS :
 npm install -g less
 ```
 
+## [MJML](https://github.com/mjmlio/mjml-syntax)
+
+Langage de templating (utiliser avec https://mjml.io/).
+
+Installation de MJML avec NodeJS :
+
+```Shell
+npm install -g mjml
+```
+
 
 # Templates
 

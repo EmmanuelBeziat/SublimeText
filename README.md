@@ -91,6 +91,10 @@ Facilite l'écriture du html avec une syntaxe CSS avancée.
 
 Affiche les modifications git d'un fichier dans la gouttière.
 
+## [Glue](https://github.com/chrissimpkins/glue)
+
+Terminal utilisable depuis SublimeText.
+
 ## [Increment Selection](https://github.com/yulanggong/IncrementSelection)
 
 Permet d'insérer automatiquement des nombres auto-incrémentés sur plusieurs lignes.

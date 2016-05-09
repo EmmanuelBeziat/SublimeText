@@ -49,9 +49,13 @@ My SublimeText 3 setup
 
 Permet la création rapide de nouveaux fichiers et dossiers dans un projet SublimeText 2 & 3.
 
+![AdvancedNewFile](http://take.ms/xnE9w)
+
 ## [AutoFileName](https://github.com/BoundInCode/AutoFileName)
 
 Autocomplétion de noms de fichiers dans un projet SublimeText.
+
+![AutoFileName](http://take.ms/dNwNH)
 
 ## [Better CoffeeScript](https://github.com/aponxi/sublime-better-coffeescript)
 
@@ -67,9 +71,13 @@ npm install -g coffee-script
 
 Facilite la lecture du code en affichant l'ouverture / fermeture des balises / brackets / parenthèses / autres dans la gouttière.
 
+![BracketHighlighter](http://take.ms/trbkt)
+
 ## [Color Highlighter](https://github.com/Monnoroch/ColorHighlighter)
 
 Prévisualise les couleurs (Aux formats hexadecimal, rgb(a), hsl(a), etc.). Fonctionne avec les variables de préprocesseurs.
+
+![Color Highlighter](http://take.ms/lwioj)
 
 ## [ColorPicker](https://github.com/weslly/ColorPicker)
 
@@ -79,6 +87,8 @@ Ouvre le *ColorPicker* par défaut de l'OS pour choisir une couleur à la volée
 
 Facilite l'écriture des commentaires.
 
+![DockBlockr](http://take.ms/FPfvH)
+
 ## [EditorConfig](https://github.com/sindresorhus/editorconfig-sublime)
 
 Permet d'avoir des fichiers édités de façon propre entre différents éditeurs et différents OS.
@@ -87,9 +97,13 @@ Permet d'avoir des fichiers édités de façon propre entre différents éditeur
 
 Facilite l'écriture du html avec une syntaxe CSS avancée.
 
+![Emmet](http://take.ms/rskJR)
+
 ## [GitGutter](https://github.com/jisaacks/GitGutter)
 
 Affiche les modifications git d'un fichier dans la gouttière.
+
+![GitGutter](http://take.ms/hldLn)
 
 ## [Glue](https://github.com/chrissimpkins/glue)
 
@@ -105,6 +119,8 @@ Permet d'insérer automatiquement des nombres auto-incrémentés sur plusieurs l
 ## [JsFormat](https://github.com/jdc0589/JsFormat)
 
 Nettoie et clarifie automatiquement un code Javascript.
+
+![JsFormat](http://take.ms/pSjZg)
 
 **Pour Windows** <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>f</kbd>
 **Pour OSX** <kbd>cmd</kbd> + <kbd>alt</kbd> + <kbd>f</kbd>
@@ -131,6 +147,8 @@ Gestionnaire de *linters* (Voir packages suivants).
 
 Permet l'utilisation de jshint pour vérifier la syntaxe d'un fichier Javascript.
 
+![JsHint](http://take.ms/h4B2V)
+
 jshint doit être installé avec NodeJS :
 
 ```Shell
@@ -140,6 +158,8 @@ npm install -g jshint
 ## [ToggleQuotes](https://github.com/spadgos/sublime-ToggleQuotes)
 
 Permet de switcher simplement de *single quotes* à *double quotes* (Dans les deux sens).
+
+![ToggleQuotes](http://take.ms/lXxze)
 
 ## [TrailingSpaces](https://github.com/SublimeText/TrailingSpaces)
 

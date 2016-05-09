@@ -1,6 +1,7 @@
 # SublimeText
 My SublimeText 3 setup
 
+![St3](https://cdn2.iconfinder.com/data/icons/appicns/128/472750-appicns_Sublime-Text.png)
 
 ## Preferences
 
@@ -209,11 +210,8 @@ Installation de MJML avec NodeJS :
 npm install -g mjml
 ```
 
-
 # Templates
 
 ## [Material-Theme](https://github.com/equinusocio/material-theme)
 
-## [itg.flat](https://github.com/itsthatguy/theme-itg-flat)
-
-## [flatland](https://github.com/thinkpixellab/flatland)
+![Material Theme](https://camo.githubusercontent.com/1ff3f31c6a43cdf5f02e2d54a5afee6802abff23/687474703a2f2f657175696e75736f63696f2e6769746875622e696f2f6d6174657269616c2d7468656d652f6173736574732f6d756c74692e6a7067)
